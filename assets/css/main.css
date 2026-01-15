@@ -2429,6 +2429,7 @@ input, select, textarea {
 
 			.image.left img, .image.right img {
 				width: 100%;
+				height: 100%;
 			}
 
 		.image.left {
@@ -2451,6 +2452,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				height: 100%; /*adicionado*/
 			}
 
 		.image.main {
@@ -3021,6 +3023,7 @@ input, select, textarea {
 				margin-bottom: 1.75em;
 				margin-left: -1.75em;
 				margin-top: -1.75em;
+				/* position: relative; */
 				position: relative;
 				width: calc(100% + 3.5em);
 			}
@@ -3028,9 +3031,9 @@ input, select, textarea {
 				.features article .image img {
 					border-radius: 5px 5px 0 0;
 					/* width: 100%; */
-					height: 400px;
-					/* padding: 1.75em 1.75em 0.1em 1.75em ; */
-					padding: 1em 1em 1em 1em ;										
+					height: 270px;
+					padding: 1.75em 1.75em 0.1em 1.75em ;
+					/* padding: 1em 1em 1em 1em ;										 */
 				}
 
 		@media screen and (max-width: 980px) {
@@ -3809,45 +3812,6 @@ input, select, textarea {
 				/* -ms-flex: 1; */
 			}
 
-.wrapper.spotlight .carousel {
-				border-radius: 100%;
-				margin: 0 3em 2em 0;
-				width: 22em;
-				overflow: hidden;
-
-    position: relative;
-    /* width: 270px;
-    height: 270px; */
-    overflow: hidden;
-    /* background-color: #870606; */
-}
-
-.wrapper.spotlight .carousel-item .slide-image {
-	border-radius: 100%;
-	width: 100%;
-    /* width: 270px;
-    height: 270px; */
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.wrapper.spotlight .carousel-item {
-    position: absolute;
-    width: 100%;
-    height: 270px;
-    border: none;
-    top: 0;
-    left: 100%;
-}
-
-.wrapper.spotlight .carousel-item.active {
-    left: 0;
-    transition: all 0.3s ease-out;
-}
-
-.wrapper.spotlight .carousel-item div {
-    height: 100%;
-}
 
 				.wrapper.spotlight .image img {
 					border-radius: 100%;

@@ -4162,3 +4162,35 @@ input, select, textarea {
 		}
 
 	}
+
+
+	/* From DeepSeek:  WhatsApp Chat Bubble Styles */
+        
+        .whatsapp-button {
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            border-radius: 50%;
+			position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+        }
+        
+        .whatsapp-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+
+        }
+        
+        .whatsapp-button i {
+            font-size: 30px;
+            color: white;
+
+        }        

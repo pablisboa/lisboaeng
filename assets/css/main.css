@@ -3440,7 +3440,7 @@ input, select, textarea {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
-			/* padding-bottom: 0.4em; */
+			padding-bottom: 0.4em;
 		}
 
 		#banner p {
